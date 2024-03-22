@@ -1,6 +1,6 @@
 ﻿Public Class Form2
     Function TotalCost(Length As Decimal, Cost As Decimal, Size As Decimal, JCost As Decimal) As Decimal
-        Return (Length * Cost) + (JCost * Size)
+        Return JCost + Cost
     End Function
 
     Private Sub MetalCB_SelectedIndexChanged(sender As Object, e As EventArgs) Handles MetalCB.SelectedIndexChanged
@@ -27,31 +27,31 @@
     Private Sub JewelCB_SelectedIndexChanged(sender As Object, e As EventArgs) Handles JewelCB.SelectedIndexChanged
         If JewelCB.Text = "Emerald" Then
             EmeraldPB.Visible = True
-            JewelCTB.Text = "350"
+            JewelCostTB.Text = "350"
         Else
             EmeraldPB.Visible = False
         End If
         If JewelCB.Text = "Garnet" Then
             GarnetPB.Visible = True
-            JewelCTB.Text = "550"
+            JewelCostTB.Text = "550"
         Else
             GarnetPB.Visible = False
         End If
         If JewelCB.Text = "Amethyst" Then
             AmethystPB.Visible = True
-            JewelCTB.Text = "50"
+            JewelCostTB.Text = "50"
         Else
             AmethystPB.Visible = False
         End If
         If JewelCB.Text = "Diamond" Then
             DiamondPB.Visible = True
-            JewelCTB.Text = "3400"
+            JewelCostTB.Text = "3400"
         Else
             DiamondPB.Visible = False
         End If
         If JewelCB.Text = "Aquamarine" Then
             AquamarinePB.Visible = True
-            JewelCTB.Text = "675"
+            JewelCostTB.Text = "675"
         Else
             AquamarinePB.Visible = False
         End If
