@@ -22,13 +22,6 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.SilverPB = New System.Windows.Forms.PictureBox()
-        Me.RoseGoldPB = New System.Windows.Forms.PictureBox()
-        Me.EmeraldPB = New System.Windows.Forms.PictureBox()
-        Me.GarnetPB = New System.Windows.Forms.PictureBox()
-        Me.DiamondPB = New System.Windows.Forms.PictureBox()
-        Me.AquamarinePB = New System.Windows.Forms.PictureBox()
-        Me.AmethystPB = New System.Windows.Forms.PictureBox()
         Me.MetalCB = New System.Windows.Forms.ComboBox()
         Me.JewelCB = New System.Windows.Forms.ComboBox()
         Me.CostTB = New System.Windows.Forms.TextBox()
@@ -39,95 +32,27 @@ Partial Class Form1
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Total = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.GoldPB = New System.Windows.Forms.PictureBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.JewelCTB = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.SizeTB = New System.Windows.Forms.TextBox()
-        CType(Me.SilverPB, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.RoseGoldPB, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EmeraldPB, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.GarnetPB, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.DiamondPB, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.AquamarinePB, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.AmethystPB, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GoldPB = New System.Windows.Forms.PictureBox()
+        Me.AmethystPB = New System.Windows.Forms.PictureBox()
+        Me.AquamarinePB = New System.Windows.Forms.PictureBox()
+        Me.DiamondPB = New System.Windows.Forms.PictureBox()
+        Me.GarnetPB = New System.Windows.Forms.PictureBox()
+        Me.EmeraldPB = New System.Windows.Forms.PictureBox()
+        Me.RoseGoldPB = New System.Windows.Forms.PictureBox()
+        Me.SilverPB = New System.Windows.Forms.PictureBox()
         CType(Me.GoldPB, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.AmethystPB, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.AquamarinePB, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DiamondPB, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GarnetPB, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.EmeraldPB, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.RoseGoldPB, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.SilverPB, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'SilverPB
-        '
-        Me.SilverPB.Image = Global.Jewlery.My.Resources.Resources.silver
-        Me.SilverPB.Location = New System.Drawing.Point(30, 484)
-        Me.SilverPB.Name = "SilverPB"
-        Me.SilverPB.Size = New System.Drawing.Size(205, 199)
-        Me.SilverPB.TabIndex = 0
-        Me.SilverPB.TabStop = False
-        Me.SilverPB.Visible = False
-        '
-        'RoseGoldPB
-        '
-        Me.RoseGoldPB.Image = Global.Jewlery.My.Resources.Resources.rosegold
-        Me.RoseGoldPB.Location = New System.Drawing.Point(50, 484)
-        Me.RoseGoldPB.Name = "RoseGoldPB"
-        Me.RoseGoldPB.Size = New System.Drawing.Size(203, 197)
-        Me.RoseGoldPB.TabIndex = 2
-        Me.RoseGoldPB.TabStop = False
-        Me.RoseGoldPB.Visible = False
-        '
-        'EmeraldPB
-        '
-        Me.EmeraldPB.Image = Global.Jewlery.My.Resources.Resources.Emerald
-        Me.EmeraldPB.Location = New System.Drawing.Point(30, 295)
-        Me.EmeraldPB.Name = "EmeraldPB"
-        Me.EmeraldPB.Size = New System.Drawing.Size(152, 162)
-        Me.EmeraldPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.EmeraldPB.TabIndex = 3
-        Me.EmeraldPB.TabStop = False
-        Me.EmeraldPB.Visible = False
-        '
-        'GarnetPB
-        '
-        Me.GarnetPB.Image = Global.Jewlery.My.Resources.Resources.Garnet
-        Me.GarnetPB.Location = New System.Drawing.Point(50, 295)
-        Me.GarnetPB.Name = "GarnetPB"
-        Me.GarnetPB.Size = New System.Drawing.Size(152, 162)
-        Me.GarnetPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.GarnetPB.TabIndex = 4
-        Me.GarnetPB.TabStop = False
-        Me.GarnetPB.Visible = False
-        '
-        'DiamondPB
-        '
-        Me.DiamondPB.Image = Global.Jewlery.My.Resources.Resources.Diamonds
-        Me.DiamondPB.Location = New System.Drawing.Point(70, 295)
-        Me.DiamondPB.Name = "DiamondPB"
-        Me.DiamondPB.Size = New System.Drawing.Size(150, 162)
-        Me.DiamondPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.DiamondPB.TabIndex = 5
-        Me.DiamondPB.TabStop = False
-        Me.DiamondPB.Visible = False
-        '
-        'AquamarinePB
-        '
-        Me.AquamarinePB.Image = Global.Jewlery.My.Resources.Resources.Aquamarine
-        Me.AquamarinePB.Location = New System.Drawing.Point(101, 295)
-        Me.AquamarinePB.Name = "AquamarinePB"
-        Me.AquamarinePB.Size = New System.Drawing.Size(152, 162)
-        Me.AquamarinePB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.AquamarinePB.TabIndex = 6
-        Me.AquamarinePB.TabStop = False
-        Me.AquamarinePB.Visible = False
-        '
-        'AmethystPB
-        '
-        Me.AmethystPB.Image = Global.Jewlery.My.Resources.Resources.Amethyst
-        Me.AmethystPB.Location = New System.Drawing.Point(126, 295)
-        Me.AmethystPB.Name = "AmethystPB"
-        Me.AmethystPB.Size = New System.Drawing.Size(152, 162)
-        Me.AmethystPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.AmethystPB.TabIndex = 7
-        Me.AmethystPB.TabStop = False
-        Me.AmethystPB.Visible = False
         '
         'MetalCB
         '
@@ -141,7 +66,7 @@ Partial Class Form1
         'JewelCB
         '
         Me.JewelCB.FormattingEnabled = True
-        Me.JewelCB.Items.AddRange(New Object() {"Emrald", "Garnet", "Amethyst", "Diamond", "Aquamarine"})
+        Me.JewelCB.Items.AddRange(New Object() {"Emerald", "Garnet", "Amethyst", "Diamond", "Aquamarine"})
         Me.JewelCB.Location = New System.Drawing.Point(251, 58)
         Me.JewelCB.Name = "JewelCB"
         Me.JewelCB.Size = New System.Drawing.Size(121, 24)
@@ -149,16 +74,16 @@ Partial Class Form1
         '
         'CostTB
         '
-        Me.CostTB.Location = New System.Drawing.Point(725, 58)
+        Me.CostTB.Location = New System.Drawing.Point(725, 59)
         Me.CostTB.Name = "CostTB"
         Me.CostTB.Size = New System.Drawing.Size(100, 22)
         Me.CostTB.TabIndex = 10
         '
         'LengthTB
         '
-        Me.LengthTB.Location = New System.Drawing.Point(101, 246)
+        Me.LengthTB.Location = New System.Drawing.Point(121, 246)
         Me.LengthTB.Name = "LengthTB"
-        Me.LengthTB.Size = New System.Drawing.Size(91, 22)
+        Me.LengthTB.Size = New System.Drawing.Size(76, 22)
         Me.LengthTB.TabIndex = 11
         '
         'Label1
@@ -215,16 +140,6 @@ Partial Class Form1
         Me.Label5.TabIndex = 17
         Me.Label5.Text = "Total" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
-        'GoldPB
-        '
-        Me.GoldPB.Image = Global.Jewlery.My.Resources.Resources.Gold
-        Me.GoldPB.Location = New System.Drawing.Point(70, 484)
-        Me.GoldPB.Name = "GoldPB"
-        Me.GoldPB.Size = New System.Drawing.Size(203, 199)
-        Me.GoldPB.TabIndex = 18
-        Me.GoldPB.TabStop = False
-        Me.GoldPB.Visible = False
-        '
         'Label6
         '
         Me.Label6.AutoSize = True
@@ -236,7 +151,7 @@ Partial Class Form1
         '
         'JewelCTB
         '
-        Me.JewelCTB.Location = New System.Drawing.Point(725, 30)
+        Me.JewelCTB.Location = New System.Drawing.Point(725, 31)
         Me.JewelCTB.Name = "JewelCTB"
         Me.JewelCTB.Size = New System.Drawing.Size(99, 22)
         Me.JewelCTB.TabIndex = 20
@@ -246,16 +161,101 @@ Partial Class Form1
         Me.Label7.AutoSize = True
         Me.Label7.Location = New System.Drawing.Point(29, 221)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(66, 16)
+        Me.Label7.Size = New System.Drawing.Size(86, 16)
         Me.Label7.TabIndex = 21
-        Me.Label7.Text = "Size (mm)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Label7.Text = "Size (p/carat)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'SizeTB
         '
-        Me.SizeTB.Location = New System.Drawing.Point(101, 221)
+        Me.SizeTB.Location = New System.Drawing.Point(121, 221)
         Me.SizeTB.Name = "SizeTB"
-        Me.SizeTB.Size = New System.Drawing.Size(91, 22)
+        Me.SizeTB.Size = New System.Drawing.Size(76, 22)
         Me.SizeTB.TabIndex = 22
+        '
+        'GoldPB
+        '
+        Me.GoldPB.Image = Global.Jewlery.My.Resources.Resources.Gold
+        Me.GoldPB.Location = New System.Drawing.Point(70, 484)
+        Me.GoldPB.Name = "GoldPB"
+        Me.GoldPB.Size = New System.Drawing.Size(203, 199)
+        Me.GoldPB.TabIndex = 18
+        Me.GoldPB.TabStop = False
+        Me.GoldPB.Visible = False
+        '
+        'AmethystPB
+        '
+        Me.AmethystPB.Image = Global.Jewlery.My.Resources.Resources.Amethyst
+        Me.AmethystPB.Location = New System.Drawing.Point(126, 295)
+        Me.AmethystPB.Name = "AmethystPB"
+        Me.AmethystPB.Size = New System.Drawing.Size(152, 162)
+        Me.AmethystPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.AmethystPB.TabIndex = 7
+        Me.AmethystPB.TabStop = False
+        Me.AmethystPB.Visible = False
+        '
+        'AquamarinePB
+        '
+        Me.AquamarinePB.Image = Global.Jewlery.My.Resources.Resources.Aquamarine
+        Me.AquamarinePB.Location = New System.Drawing.Point(101, 295)
+        Me.AquamarinePB.Name = "AquamarinePB"
+        Me.AquamarinePB.Size = New System.Drawing.Size(152, 162)
+        Me.AquamarinePB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.AquamarinePB.TabIndex = 6
+        Me.AquamarinePB.TabStop = False
+        Me.AquamarinePB.Visible = False
+        '
+        'DiamondPB
+        '
+        Me.DiamondPB.Image = Global.Jewlery.My.Resources.Resources.Diamonds
+        Me.DiamondPB.Location = New System.Drawing.Point(70, 295)
+        Me.DiamondPB.Name = "DiamondPB"
+        Me.DiamondPB.Size = New System.Drawing.Size(150, 162)
+        Me.DiamondPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.DiamondPB.TabIndex = 5
+        Me.DiamondPB.TabStop = False
+        Me.DiamondPB.Visible = False
+        '
+        'GarnetPB
+        '
+        Me.GarnetPB.Image = Global.Jewlery.My.Resources.Resources.Garnet
+        Me.GarnetPB.Location = New System.Drawing.Point(50, 295)
+        Me.GarnetPB.Name = "GarnetPB"
+        Me.GarnetPB.Size = New System.Drawing.Size(152, 162)
+        Me.GarnetPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.GarnetPB.TabIndex = 4
+        Me.GarnetPB.TabStop = False
+        Me.GarnetPB.Visible = False
+        '
+        'EmeraldPB
+        '
+        Me.EmeraldPB.Image = Global.Jewlery.My.Resources.Resources.Emerald
+        Me.EmeraldPB.Location = New System.Drawing.Point(30, 295)
+        Me.EmeraldPB.Name = "EmeraldPB"
+        Me.EmeraldPB.Size = New System.Drawing.Size(152, 162)
+        Me.EmeraldPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.EmeraldPB.TabIndex = 3
+        Me.EmeraldPB.TabStop = False
+        Me.EmeraldPB.Visible = False
+        '
+        'RoseGoldPB
+        '
+        Me.RoseGoldPB.Image = Global.Jewlery.My.Resources.Resources.rosegold
+        Me.RoseGoldPB.Location = New System.Drawing.Point(50, 484)
+        Me.RoseGoldPB.Name = "RoseGoldPB"
+        Me.RoseGoldPB.Size = New System.Drawing.Size(203, 197)
+        Me.RoseGoldPB.TabIndex = 2
+        Me.RoseGoldPB.TabStop = False
+        Me.RoseGoldPB.Visible = False
+        '
+        'SilverPB
+        '
+        Me.SilverPB.Image = Global.Jewlery.My.Resources.Resources.silver
+        Me.SilverPB.Location = New System.Drawing.Point(30, 484)
+        Me.SilverPB.Name = "SilverPB"
+        Me.SilverPB.Size = New System.Drawing.Size(205, 199)
+        Me.SilverPB.TabIndex = 0
+        Me.SilverPB.TabStop = False
+        Me.SilverPB.Visible = False
         '
         'Form1
         '
@@ -286,14 +286,14 @@ Partial Class Form1
         Me.Controls.Add(Me.SilverPB)
         Me.Name = "Form1"
         Me.Text = "Form1"
-        CType(Me.SilverPB, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.RoseGoldPB, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EmeraldPB, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.GarnetPB, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.DiamondPB, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.AquamarinePB, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.AmethystPB, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GoldPB, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.AmethystPB, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.AquamarinePB, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DiamondPB, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GarnetPB, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.EmeraldPB, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.RoseGoldPB, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.SilverPB, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

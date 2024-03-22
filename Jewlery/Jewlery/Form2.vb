@@ -1,5 +1,4 @@
-﻿Public Class Form1
-
+﻿Public Class Form2
     Function TotalCost(Length As Decimal, Cost As Decimal, Size As Decimal, JCost As Decimal) As Decimal
         Return (Length * Cost) + (JCost * Size)
     End Function
@@ -7,7 +6,7 @@
     Private Sub MetalCB_SelectedIndexChanged(sender As Object, e As EventArgs) Handles MetalCB.SelectedIndexChanged
         If MetalCB.Text = "Gold " Then
             GoldPB.Visible = True
-            CostTB.Text = "2.99"
+            MetalCostTB.Text = "2.99"
         Else
             GoldPB.Visible = False
         End If
