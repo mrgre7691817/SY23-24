@@ -12,13 +12,13 @@
         End If
         If MetalCB.Text = "Silver" Then
             SilverPB.Visible = True
-            CostTB.Text = "1.50"
+            MetalCostTB.Text = "1.50"
         Else
             SilverPB.Visible = False
         End If
         If MetalCB.Text = "Rose Gold" Then
             RoseGoldPB.Visible = True
-            CostTB.Text = "1.00"
+            MetalCostTB.Text = "1.00"
         Else
             RoseGoldPB.Visible = False
         End If
@@ -57,15 +57,15 @@
         End If
     End Sub
 
-    Private Sub SizeTB_TextChanged(sender As Object, e As EventArgs) Handles SizeTB.TextChanged, LengthTB.TextChanged
-        Dim l As Decimal
+    Private Sub SizeTB_TextChanged(sender As Object, e As EventArgs) Handles RingSizeCB.TextChanged, JewelCaratTB.TextChanged
+        Dim r As Decimal
         Dim s As Decimal
         Dim c As Decimal
         Dim jc As Decimal
-        Decimal.TryParse(LengthTB.Text, l)
-        Decimal.TryParse(CostTB.Text, c)
-        Decimal.TryParse(SizeTB.Text, s)
-        Decimal.TryParse(JewelCTB.Text, jc)
-        Total.Text = TotalCost(l, c, s, jc)
+        Decimal.TryParse(RingSizeCB.Text, r)
+        Decimal.TryParse(MetalCostTB.Text, c)
+        Decimal.TryParse(JewelCaratTB.Text, s)
+        Decimal.TryParse(JewelCostTB.Text, jc)
+        TotalTB.Text = TotalCost(r, c, s, jc)
     End Sub
 End Class
