@@ -44,6 +44,7 @@ Partial Class Form1
         Me.EmeraldPB = New System.Windows.Forms.PictureBox()
         Me.RoseGoldPB = New System.Windows.Forms.PictureBox()
         Me.SilverPB = New System.Windows.Forms.PictureBox()
+        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.GoldPB, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.AmethystPB, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.AquamarinePB, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -257,11 +258,21 @@ Partial Class Form1
         Me.SilverPB.TabStop = False
         Me.SilverPB.Visible = False
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(1016, 186)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 23
+        Me.Button1.Text = "Button1"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1192, 758)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.SizeTB)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.JewelCTB)
@@ -321,4 +332,5 @@ Partial Class Form1
     Friend WithEvents JewelCTB As TextBox
     Friend WithEvents Label7 As Label
     Friend WithEvents SizeTB As TextBox
+    Friend WithEvents Button1 As Button
 End Class
