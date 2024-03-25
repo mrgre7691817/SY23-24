@@ -6,19 +6,19 @@
     Private Sub MetalCB_SelectedIndexChanged(sender As Object, e As EventArgs) Handles MetalCB.SelectedIndexChanged
         If MetalCB.Text = "Gold " Then
             GoldPB.Visible = True
-            MetalCostTB.Text = "2.99"
+            MetalCostTB.Text = "372"
         Else
             GoldPB.Visible = False
         End If
         If MetalCB.Text = "Silver" Then
             SilverPB.Visible = True
-            MetalCostTB.Text = "1.50"
+            MetalCostTB.Text = "140"
         Else
             SilverPB.Visible = False
         End If
         If MetalCB.Text = "Rose Gold" Then
             RoseGoldPB.Visible = True
-            MetalCostTB.Text = "1.00"
+            MetalCostTB.Text = "289"
         Else
             RoseGoldPB.Visible = False
         End If
