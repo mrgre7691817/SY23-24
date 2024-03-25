@@ -68,4 +68,5 @@
         Decimal.TryParse(JewelCostTB.Text, jc)
         TotalTB.Text = TotalCost(r, c, s, jc)
     End Sub
+
 End Class

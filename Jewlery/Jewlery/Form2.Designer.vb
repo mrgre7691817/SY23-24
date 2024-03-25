@@ -56,8 +56,9 @@ Partial Class Form2
         '
         'AmethystPB
         '
+        Me.AmethystPB.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.AmethystPB.Image = Global.Jewlery.My.Resources.Resources.Amethyst
-        Me.AmethystPB.Location = New System.Drawing.Point(105, 379)
+        Me.AmethystPB.Location = New System.Drawing.Point(323, 140)
         Me.AmethystPB.Name = "AmethystPB"
         Me.AmethystPB.Size = New System.Drawing.Size(152, 162)
         Me.AmethystPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -67,8 +68,9 @@ Partial Class Form2
         '
         'AquamarinePB
         '
+        Me.AquamarinePB.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.AquamarinePB.Image = Global.Jewlery.My.Resources.Resources.Aquamarine
-        Me.AquamarinePB.Location = New System.Drawing.Point(80, 379)
+        Me.AquamarinePB.Location = New System.Drawing.Point(323, 140)
         Me.AquamarinePB.Name = "AquamarinePB"
         Me.AquamarinePB.Size = New System.Drawing.Size(152, 162)
         Me.AquamarinePB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -78,8 +80,9 @@ Partial Class Form2
         '
         'DiamondPB
         '
+        Me.DiamondPB.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.DiamondPB.Image = Global.Jewlery.My.Resources.Resources.Diamonds
-        Me.DiamondPB.Location = New System.Drawing.Point(49, 379)
+        Me.DiamondPB.Location = New System.Drawing.Point(325, 140)
         Me.DiamondPB.Name = "DiamondPB"
         Me.DiamondPB.Size = New System.Drawing.Size(150, 162)
         Me.DiamondPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -89,8 +92,9 @@ Partial Class Form2
         '
         'GarnetPB
         '
+        Me.GarnetPB.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.GarnetPB.Image = Global.Jewlery.My.Resources.Resources.Garnet
-        Me.GarnetPB.Location = New System.Drawing.Point(29, 379)
+        Me.GarnetPB.Location = New System.Drawing.Point(325, 140)
         Me.GarnetPB.Name = "GarnetPB"
         Me.GarnetPB.Size = New System.Drawing.Size(152, 162)
         Me.GarnetPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -100,8 +104,9 @@ Partial Class Form2
         '
         'EmeraldPB
         '
+        Me.EmeraldPB.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.EmeraldPB.Image = Global.Jewlery.My.Resources.Resources.Emerald
-        Me.EmeraldPB.Location = New System.Drawing.Point(9, 379)
+        Me.EmeraldPB.Location = New System.Drawing.Point(325, 140)
         Me.EmeraldPB.Name = "EmeraldPB"
         Me.EmeraldPB.Size = New System.Drawing.Size(152, 162)
         Me.EmeraldPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -111,8 +116,9 @@ Partial Class Form2
         '
         'GoldPB
         '
+        Me.GoldPB.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.GoldPB.Image = Global.Jewlery.My.Resources.Resources.Gold
-        Me.GoldPB.Location = New System.Drawing.Point(54, 571)
+        Me.GoldPB.Location = New System.Drawing.Point(80, 124)
         Me.GoldPB.Name = "GoldPB"
         Me.GoldPB.Size = New System.Drawing.Size(203, 199)
         Me.GoldPB.TabIndex = 21
@@ -121,8 +127,9 @@ Partial Class Form2
         '
         'RoseGoldPB
         '
+        Me.RoseGoldPB.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.RoseGoldPB.Image = Global.Jewlery.My.Resources.Resources.rosegold
-        Me.RoseGoldPB.Location = New System.Drawing.Point(34, 571)
+        Me.RoseGoldPB.Location = New System.Drawing.Point(80, 124)
         Me.RoseGoldPB.Name = "RoseGoldPB"
         Me.RoseGoldPB.Size = New System.Drawing.Size(203, 197)
         Me.RoseGoldPB.TabIndex = 20
@@ -131,8 +138,9 @@ Partial Class Form2
         '
         'SilverPB
         '
+        Me.SilverPB.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.SilverPB.Image = Global.Jewlery.My.Resources.Resources.silver
-        Me.SilverPB.Location = New System.Drawing.Point(14, 571)
+        Me.SilverPB.Location = New System.Drawing.Point(80, 124)
         Me.SilverPB.Name = "SilverPB"
         Me.SilverPB.Size = New System.Drawing.Size(205, 199)
         Me.SilverPB.TabIndex = 19
@@ -142,63 +150,70 @@ Partial Class Form2
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(288, 412)
+        Me.Label1.Font = New System.Drawing.Font("Monotype Corsiva", 9.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(75, 359)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(83, 16)
+        Me.Label1.Size = New System.Drawing.Size(77, 17)
         Me.Label1.TabIndex = 22
         Me.Label1.Text = "Jewel (carat)"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(288, 454)
+        Me.Label2.Font = New System.Drawing.Font("Monotype Corsiva", 9.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(75, 407)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(62, 16)
+        Me.Label2.Size = New System.Drawing.Size(59, 17)
         Me.Label2.TabIndex = 23
         Me.Label2.Text = "Ring size"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(113, 52)
+        Me.Label3.Font = New System.Drawing.Font("Monotype Corsiva", 9.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(149, 52)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(40, 16)
+        Me.Label3.Size = New System.Drawing.Size(41, 17)
         Me.Label3.TabIndex = 24
         Me.Label3.Text = "Metal"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(335, 52)
+        Me.Label4.Font = New System.Drawing.Font("Monotype Corsiva", 9.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(373, 52)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(42, 16)
+        Me.Label4.Size = New System.Drawing.Size(40, 17)
         Me.Label4.TabIndex = 25
         Me.Label4.Text = "Jewel"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(844, 130)
+        Me.Label5.Font = New System.Drawing.Font("Monotype Corsiva", 9.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(554, 170)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(38, 16)
+        Me.Label5.Size = New System.Drawing.Size(37, 17)
         Me.Label5.TabIndex = 26
         Me.Label5.Text = "Total"
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(844, 90)
+        Me.Label6.Font = New System.Drawing.Font("Monotype Corsiva", 9.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(554, 130)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(68, 16)
+        Me.Label6.Size = New System.Drawing.Size(65, 17)
         Me.Label6.TabIndex = 27
         Me.Label6.Text = "Metal cost"
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(844, 52)
+        Me.Label7.Font = New System.Drawing.Font("Monotype Corsiva", 9.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(554, 92)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(104, 16)
+        Me.Label7.Size = New System.Drawing.Size(96, 17)
         Me.Label7.TabIndex = 28
         Me.Label7.Text = "Jewel cost/carat"
         '
@@ -206,7 +221,7 @@ Partial Class Form2
         '
         Me.RingSizeCB.FormattingEnabled = True
         Me.RingSizeCB.Items.AddRange(New Object() {"3", "3.5", "4", "4.5", "5", "5.5", "6", "6.5", "7", "7.5", "8", "8.5", "9", "9.5", "10", "10.5", "11", "11.5", "12", "12.5", "13", "13.5"})
-        Me.RingSizeCB.Location = New System.Drawing.Point(377, 446)
+        Me.RingSizeCB.Location = New System.Drawing.Point(164, 399)
         Me.RingSizeCB.Name = "RingSizeCB"
         Me.RingSizeCB.Size = New System.Drawing.Size(121, 24)
         Me.RingSizeCB.TabIndex = 29
@@ -231,28 +246,28 @@ Partial Class Form2
         '
         'JewelCaratTB
         '
-        Me.JewelCaratTB.Location = New System.Drawing.Point(409, 412)
+        Me.JewelCaratTB.Location = New System.Drawing.Point(196, 359)
         Me.JewelCaratTB.Name = "JewelCaratTB"
         Me.JewelCaratTB.Size = New System.Drawing.Size(89, 22)
         Me.JewelCaratTB.TabIndex = 32
         '
         'JewelCostTB
         '
-        Me.JewelCostTB.Location = New System.Drawing.Point(971, 46)
+        Me.JewelCostTB.Location = New System.Drawing.Point(681, 86)
         Me.JewelCostTB.Name = "JewelCostTB"
         Me.JewelCostTB.Size = New System.Drawing.Size(100, 22)
         Me.JewelCostTB.TabIndex = 33
         '
         'MetalCostTB
         '
-        Me.MetalCostTB.Location = New System.Drawing.Point(971, 84)
+        Me.MetalCostTB.Location = New System.Drawing.Point(681, 124)
         Me.MetalCostTB.Name = "MetalCostTB"
         Me.MetalCostTB.Size = New System.Drawing.Size(100, 22)
         Me.MetalCostTB.TabIndex = 34
         '
         'TotalTB
         '
-        Me.TotalTB.Location = New System.Drawing.Point(971, 124)
+        Me.TotalTB.Location = New System.Drawing.Point(681, 164)
         Me.TotalTB.Name = "TotalTB"
         Me.TotalTB.Size = New System.Drawing.Size(100, 22)
         Me.TotalTB.TabIndex = 35
@@ -261,7 +276,8 @@ Partial Class Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1166, 782)
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.ClientSize = New System.Drawing.Size(927, 473)
         Me.Controls.Add(Me.TotalTB)
         Me.Controls.Add(Me.MetalCostTB)
         Me.Controls.Add(Me.JewelCostTB)
