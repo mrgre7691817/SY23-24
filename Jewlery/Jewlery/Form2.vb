@@ -4,7 +4,7 @@
     End Function
 
     Private Sub MetalCB_SelectedIndexChanged(sender As Object, e As EventArgs) Handles MetalCB.SelectedIndexChanged
-        If MetalCB.Text = "Gold " Then
+        If MetalCB.Text = "Gold" Then
             GoldPB.Visible = True
             MetalCostTB.Text = "2.99"
         Else
