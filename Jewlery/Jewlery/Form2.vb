@@ -1,6 +1,6 @@
 ﻿Public Class Form2
     Function TotalCost(Length As Decimal, Cost As Decimal, Size As Decimal, JCost As Decimal) As Decimal
-        Return JCost + Cost
+        Return (JCost * Size) + Cost
     End Function
 
     Private Sub MetalCB_SelectedIndexChanged(sender As Object, e As EventArgs) Handles MetalCB.SelectedIndexChanged
