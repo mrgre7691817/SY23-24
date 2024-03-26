@@ -34,6 +34,18 @@ Partial Class Form3
         Me.JewelCB = New System.Windows.Forms.ComboBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.MetalCostTB = New System.Windows.Forms.TextBox()
+        Me.TotalTB = New System.Windows.Forms.TextBox()
+        Me.JewelCostTB = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.JewelCaratTB = New System.Windows.Forms.TextBox()
+        Me.EarringStyleCB = New System.Windows.Forms.ComboBox()
+        Me.EarringSizeTB = New System.Windows.Forms.TextBox()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
         CType(Me.GoldPB, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RoseGoldPB, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.SilverPB, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -173,11 +185,123 @@ Partial Class Form3
         Me.Label2.TabIndex = 34
         Me.Label2.Text = "Label2"
         '
+        'MetalCostTB
+        '
+        Me.MetalCostTB.Location = New System.Drawing.Point(576, 162)
+        Me.MetalCostTB.Name = "MetalCostTB"
+        Me.MetalCostTB.Size = New System.Drawing.Size(100, 22)
+        Me.MetalCostTB.TabIndex = 35
+        '
+        'TotalTB
+        '
+        Me.TotalTB.Location = New System.Drawing.Point(576, 215)
+        Me.TotalTB.Name = "TotalTB"
+        Me.TotalTB.Size = New System.Drawing.Size(100, 22)
+        Me.TotalTB.TabIndex = 36
+        '
+        'JewelCostTB
+        '
+        Me.JewelCostTB.Location = New System.Drawing.Point(576, 111)
+        Me.JewelCostTB.Name = "JewelCostTB"
+        Me.JewelCostTB.Size = New System.Drawing.Size(100, 22)
+        Me.JewelCostTB.TabIndex = 37
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(462, 114)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(107, 16)
+        Me.Label3.TabIndex = 38
+        Me.Label3.Text = "Jewel cost/ carat"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(499, 167)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(70, 16)
+        Me.Label4.TabIndex = 39
+        Me.Label4.Text = "Metal Cost"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(499, 218)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(38, 16)
+        Me.Label5.TabIndex = 40
+        Me.Label5.Text = "Total"
+        '
+        'JewelCaratTB
+        '
+        Me.JewelCaratTB.Location = New System.Drawing.Point(100, 393)
+        Me.JewelCaratTB.Name = "JewelCaratTB"
+        Me.JewelCaratTB.Size = New System.Drawing.Size(89, 22)
+        Me.JewelCaratTB.TabIndex = 41
+        '
+        'EarringStyleCB
+        '
+        Me.EarringStyleCB.FormattingEnabled = True
+        Me.EarringStyleCB.Items.AddRange(New Object() {"Stud", "Hoops", "Dangle"})
+        Me.EarringStyleCB.Location = New System.Drawing.Point(100, 343)
+        Me.EarringStyleCB.Name = "EarringStyleCB"
+        Me.EarringStyleCB.Size = New System.Drawing.Size(121, 24)
+        Me.EarringStyleCB.TabIndex = 42
+        '
+        'EarringSizeTB
+        '
+        Me.EarringSizeTB.Location = New System.Drawing.Point(100, 444)
+        Me.EarringSizeTB.Name = "EarringSizeTB"
+        Me.EarringSizeTB.Size = New System.Drawing.Size(100, 22)
+        Me.EarringSizeTB.TabIndex = 43
+        Me.EarringSizeTB.Visible = False
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(13, 343)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(37, 16)
+        Me.Label6.TabIndex = 44
+        Me.Label6.Text = "Style"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(9, 393)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(85, 16)
+        Me.Label7.TabIndex = 45
+        Me.Label7.Text = "Jewel (Carat)"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(13, 444)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(33, 16)
+        Me.Label8.TabIndex = 46
+        Me.Label8.Text = "Size"
+        Me.Label8.Visible = False
+        '
         'Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(800, 524)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.EarringSizeTB)
+        Me.Controls.Add(Me.EarringStyleCB)
+        Me.Controls.Add(Me.JewelCaratTB)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.JewelCostTB)
+        Me.Controls.Add(Me.TotalTB)
+        Me.Controls.Add(Me.MetalCostTB)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.JewelCB)
@@ -217,4 +341,16 @@ Partial Class Form3
     Friend WithEvents JewelCB As ComboBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
+    Friend WithEvents MetalCostTB As TextBox
+    Friend WithEvents TotalTB As TextBox
+    Friend WithEvents JewelCostTB As TextBox
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents JewelCaratTB As TextBox
+    Friend WithEvents EarringStyleCB As ComboBox
+    Friend WithEvents EarringSizeTB As TextBox
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label8 As Label
 End Class
