@@ -1,4 +1,4 @@
-﻿Public Class Form1
+Public Class Form1
 
     Function TotalCost(Length As Decimal, Cost As Decimal, Size As Decimal, JCost As Decimal) As Decimal
         Return (Length * Cost) + (JCost * Size)
@@ -76,7 +76,5 @@
         f2.ShowDialog()
 
         Me.Show()
-            End Sub
-
-
+    End Sub
 End Class
